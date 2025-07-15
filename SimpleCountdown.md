@@ -2,7 +2,7 @@
 
 **Last updated:** July 15, 2025
 
-Please read these terms and conditions ("Terms") carefully before using the Simple Countdown (Free) mobile application (the "App") operated by **[Your Name / Company Name]** ("us", "we", or "our").
+Please read these terms and conditions ("Terms") carefully before using the Simple Countdown (Free) mobile application (the "App") operated by **[Tyler Tirapelle]** ("us", "we", or "our").
 
 Your access to and use of the App is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users, and others who access or use the App. By accessing or using the App, you agree to be bound by these Terms. If you disagree with any part of the terms, then you may not access the App.
 
@@ -24,7 +24,7 @@ Because your content is stored only on your device, you are solely responsible f
 
 ### Intellectual Property
 
-The App and its original content (excluding User Content), features, and functionality are and will remain the exclusive property of **[Your Name / Company Name]**.
+The App and its original content (excluding User Content), features, and functionality are and will remain the exclusive property of **[Tyler Tirapelle]**.
 
 ***
 
@@ -44,7 +44,7 @@ We reserve the right, at our sole discretion, to modify or replace these Terms a
 
 ### Governing Law
 
-The laws of **[Your Country/State]**, excluding its conflicts of law rules, shall govern this Terms and Your use of the Application.
+The laws of **[Japan]**, excluding its conflicts of law rules, shall govern this Terms and Your use of the Application.
 
 ***
 
