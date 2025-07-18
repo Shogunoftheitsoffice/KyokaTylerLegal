@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Countdown App - Support</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #007aff; /* Apple Blue */
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+        ul li::before {
+            content: '•';
+            color: #007aff;
+            position: absolute;
+            left: 0;
+        }
+        a {
+            color: #007aff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .contact-info {
+            background-color: #e9f5ff;
+            padding: 15px;
+            border-left: 5px solid #007aff;
+            margin-top: 20px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Simple Countdown App - Support</h1>
+        <p>Welcome to the support page for the Simple Countdown app! We're here to help you get the most out of your app.</p>
+
+        <div class="contact-info">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feedback, or need assistance, please don't hesitate to reach out:</p>
+            <p><strong>Email:</strong> <a href="mailto:kyokatylerdev@gmail.com">kyokatylerdev@gmail.com</a></p>
+            <p>We aim to respond to all inquiries within 2-3 business days.</p>
+        </div>
+
+        <h2>Frequently Asked Questions (FAQs)</h2>
+
+        <h3>Getting Started</h3>
+        <ul>
+            <li><strong>How do I create a new event?</strong><br>Tap the large plus (+) icon on the main screen to open the event editor. Give your event a title, set the date, and customize its appearance. Tap 'Save' to add it.</li>
+            <li><strong>What's the difference between "Count Down" and "Count Up" events?</strong><br>
+                <ul>
+                    <li><strong>Count Down:</strong> For future events (e.g., a birthday, a holiday). The app counts the time remaining until that date.</li>
+                    <li><strong>Count Up:</strong> For past events (e.g., how long you've been at your job, the age of a child). The app counts the time that has passed since that date.</li>
+                </ul>
+            </li>
+            <li><strong>What are the different "Display Formats"?</strong><br>
+                <ul>
+                    <li><strong>Standard:</strong> Shows Days, Hours, Minutes, Seconds (D, H, M, S).</li>
+                    <li><strong>Compact:</strong> Shows a more condensed version (D:H:M:S).</li>
+                    <li><strong>Total Days:</strong> Displays the total number of days remaining or passed.</li>
+                    <li><strong>Total Hours:</strong> Displays the total number of hours remaining or passed.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h3>Managing Events</h3>
+        <ul>
+            <li><strong>How do I edit an existing event?</strong><br>Simply tap on the event row in the main list. This will open the editor where you can make changes. Tap 'Save' when you're done.</li>
+            <li><strong>How do I favorite an event?</strong><br>On the main list, swipe an event row from left-to-right. A 'Favorite' button will appear. Tapping it will mark the event as a favorite, and it will then appear at the top of your list.</li>
+            <li><strong>How do I un-favorite an event?</strong><br>For favorited events (which are at the top), swipe from left-to-right. An 'Unfavorite' button will appear. Tapping it will remove it from your favorites, and it will move to the regular events section.</li>
+            <li><strong>How do I delete an event?</strong><br>On the main list, swipe an event row from right-to-left. A 'Delete' button will appear. Tap it, and confirm the deletion in the alert. This action cannot be undone.</li>
+        </ul>
+
+        <h3>Advanced Customization</h3>
+        <ul>
+            <li><strong>How do I change the background of an event?</strong><br>In the event editor, go to the "Background" section. You can choose between a solid color or an image. If you select an image, you can also set an "Image Focus Point" to control how the image is displayed.</li>
+            <li><strong>Can I change the text color and font?</strong><br>Yes! In the event editor, open the "Advanced Customization" section. Here you can select a text color and choose from a wide range of fonts.</li>
+            <li><strong>What is "Text Position" / "Text Alignment"?</strong><br>This setting in "Advanced Customization" allows you to control where the event title and countdown text appear on the event card (e.g., top-left, center, bottom-right).</li>
+        </ul>
+
+        <h3>iCloud Sync</h3>
+        <ul>
+            <li><strong>Does the app sync my events across devices?</strong><br>Yes, Simple Countdown uses iCloud to automatically sync your events across all your devices signed into the same iCloud account.</li>
+            <li><strong>How do I check my iCloud sync status?</strong><br>Go to the "More" screen (ellipsis circle icon in the top right of the main screen). Under "iCloud Status," you can see if your iCloud account is available and when the last sync occurred.</li>
+            <li><strong>My events aren't syncing. What should I do?</strong><br>
+                <ul>
+                    <li>Ensure you are signed into iCloud on all your devices.</li>
+                    <li>Check your device settings: Settings > [Your Name] > iCloud > Apps Using iCloud > Show All, and make sure Simple Countdown is enabled.</li>
+                    <li>Check the iCloud Status on the "More" screen in the app. If it shows an error, there might be a temporary iCloud issue or a problem with your account.</li>
+                    <li>Ensure you have a stable internet connection.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h2>Important Links</h2>
+        <ul>
+            <li><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank">Apple Standard End User License Agreement (EULA)</a></li>
+            <li><a href="https://shogunoftheitsoffice.github.io/KyokaTylerLegal/SimpleCountdown" target="_blank">Simple Countdown App - Terms and Conditions / Privacy Policy</a></li>
+        </ul>
+
+        <footer>
+            <p>&copy; 2025 Tyler Tirapelle. All rights reserved.</p>
+            <p>Made with ❤️ in Tokyo, Japan</p>
+        </footer>
+    </div>
+</body>
+</html>
