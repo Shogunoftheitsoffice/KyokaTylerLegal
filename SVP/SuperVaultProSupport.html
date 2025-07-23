@@ -1,1 +1,108 @@
-Hello
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Vault Pro - Support</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Chosen Palette: Calm Neutrals -->
+    <!-- Application Structure Plan: A clean, single-page application with a central content column. The structure consists of a header with the app title, a main section with distinct cards for 'Contact & Support' and 'Privacy', and a simple footer. This card-based design was chosen to logically separate information, making it easy for users to quickly find what they need. The addition of a 'Copy Email' button provides an interactive element that enhances usability beyond a static page. -->
+    <!-- Visualization & Content Choices: The source material is purely informational text. Goal: Inform & Enable Contact. Presentation: Key information is presented in styled cards using HTML and Tailwind CSS. Interaction: A 'Copy Email' button is included (Vanilla JS) to allow users to easily copy the support email address, which is a more practical interaction than a chart for this type of content. A clickable link to the privacy policy opens in a new tab. Justification: This approach transforms the static Markdown into a professional, user-friendly webpage that fulfills its purpose efficiently. -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased">
+
+    <div class="flex flex-col min-h-screen">
+        <main class="flex-grow container mx-auto px-4 py-8 md:py-16">
+            <div class="max-w-xl mx-auto">
+
+                <header class="text-center mb-12">
+                    <div class="flex items-center justify-center gap-3 mb-4">
+                        <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shield"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                        </div>
+                        <h1 class="text-4xl font-bold text-slate-900">Super Vault Pro</h1>
+                    </div>
+                    <p class="text-lg text-slate-600">Your official support center.</p>
+                </header>
+
+                <div class="space-y-6">
+                    <div class="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-200">
+                        <h2 class="text-2xl font-semibold text-slate-900 mb-1">Contact & Support</h2>
+                        <p class="text-slate-600 mb-6">If you need assistance or have any questions, please reach out to us. We'll do our best to respond as soon as possible.</p>
+                        
+                        <div class="space-y-4">
+                            <div>
+                                <p class="font-medium text-slate-500 text-sm">Developer</p>
+                                <p class="text-lg text-slate-800">Tyler Tirapelle</p>
+                            </div>
+                            <div>
+                                <p class="font-medium text-slate-500 text-sm">Support Email</p>
+                                <div class="flex flex-col sm:flex-row sm:items-center sm:gap-4 mt-1">
+                                    <a id="support-email" href="mailto:kyokatylerdev@gmail.com" class="text-lg text-blue-600 hover:underline break-all">kyokatylerdev@gmail.com</a>
+                                    <button id="copy-button" class="mt-2 sm:mt-0 w-full sm:w-auto bg-slate-100 hover:bg-slate-200 text-slate-700 font-medium py-2 px-4 rounded-lg text-sm transition-colors">
+                                        Copy Email
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-200">
+                        <h2 class="text-2xl font-semibold text-slate-900 mb-1">Privacy & Legal</h2>
+                        <p class="text-slate-600 mb-6">Your privacy is important to us. You can review our privacy policy to understand how we handle your data.</p>
+                        <a href="https://kt-softworks.github.io/KyokaTylerLegal/SVP/SuperVaultProPP" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center w-full sm:w-auto bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition-colors">
+                            View Privacy Policy
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+
+        <footer class="text-center py-6">
+            <p class="text-sm text-slate-500">&copy; <span id="year"></span> Super Vault Pro by Tyler Tirapelle. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        const copyButton = document.getElementById('copy-button');
+        const emailText = document.getElementById('support-email').textContent;
+
+        copyButton.addEventListener('click', () => {
+            const textarea = document.createElement('textarea');
+            textarea.value = emailText;
+            document.body.appendChild(textarea);
+            textarea.select();
+            try {
+                document.execCommand('copy');
+                copyButton.textContent = 'Copied!';
+                copyButton.classList.add('bg-green-100', 'text-green-800');
+                copyButton.classList.remove('bg-slate-100', 'text-slate-700', 'hover:bg-slate-200');
+            } catch (err) {
+                console.error('Failed to copy email: ', err);
+                copyButton.textContent = 'Error';
+            }
+            document.body.removeChild(textarea);
+
+            setTimeout(() => {
+                copyButton.textContent = 'Copy Email';
+                copyButton.classList.remove('bg-green-100', 'text-green-800');
+                copyButton.classList.add('bg-slate-100', 'text-slate-700', 'hover:bg-slate-200');
+            }, 2000);
+        });
+    </script>
+
+</body>
+</html>
