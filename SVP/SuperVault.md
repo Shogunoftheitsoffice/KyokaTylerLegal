@@ -1,10 +1,10 @@
-# Terms and Conditions for Super Vault Pro (Free)
+# Terms and Conditions for Ultra Vault
 
   Last Updated: July 11, 2025
 
-  Welcome to Super Vault Pro (Free)!
+  Welcome to Ultra Vault!
 
-  This End-User License Agreement ("Terms") constitutes a legally binding agreement between you, the user ("you" or "End-User"), and Tyler Tirapelle, the developer of the application ("the Developer", "I", "me"), regarding your use of the mobile application "Super Vault Pro (Free)" ("the App").
+  This End-User License Agreement ("Terms") constitutes a legally binding agreement between you, the user ("you" or "End-User"), and Tyler Tirapelle, the developer of the application ("the Developer", "I", "me"), regarding your use of the mobile application "Ultra Vault" ("the App").
 
   By downloading, installing, accessing, or using the App, you acknowledge that you have read, understood, and agree to be bound by these Terms. If you do not agree with these Terms, you must not download, install, or use the App.
 
@@ -47,7 +47,7 @@
 
   6. Intellectual Property Rights
 
-  The App, including its name "Super Vault Pro (Free)", and all its original source code, content, features, and functionality are and will remain the exclusive property of Tyler Tirapelle. The App is protected by copyright and other intellectual property laws. You may not copy, modify, distribute, sell, or lease any part of the App, nor may you reverse engineer or attempt to extract the source code of the software.
+  The App, including its name "Ultra Vault", and all its original source code, content, features, and functionality are and will remain the exclusive property of Tyler Tirapelle. The App is protected by copyright and other intellectual property laws. You may not copy, modify, distribute, sell, or lease any part of the App, nor may you reverse engineer or attempt to extract the source code of the software.
 
   7. Prohibited Uses
 
