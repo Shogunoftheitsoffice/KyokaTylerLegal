@@ -1,8 +1,8 @@
-## Privacy Policy for Super Vault Pro (Free)
+## Privacy Policy for Ultra Vault
 
 **Effective Date:** July 23, 2025
 
-Your privacy is our top priority. Our app, **Super Vault Pro (Free)**, is designed to be a completely private and secure digital vault for your most sensitive information. This policy outlines our absolute commitment to your privacy and explains how we handle your data—or more accurately, how we **don't**.
+Your privacy is our top priority. Our app, **Ultra Vault**, is designed to be a completely private and secure digital vault for your most sensitive information. This policy outlines our absolute commitment to your privacy and explains how we handle your data—or more accurately, how we **don't**.
 
 ---
 
@@ -18,7 +18,7 @@ To be perfectly clear, **we do not collect, store, view, or transmit**:
 * App usage data, analytics, crash reports, or performance metrics.
 * Unique device identifiers or any other information about your device.
 
-Everything you do within Super Vault Pro (Free) stays on your device. Period.
+Everything you do within Ultra Vault stays on your device. Period.
 
 ---
 
@@ -36,7 +36,7 @@ All features within the app are designed to be completely offline and local to y
 
 ### Age Rating & Children's Privacy
 
-Super Vault Pro (Free) has an age rating of **17+** and is not intended for use by anyone under this age. We do not knowingly collect any personally identifiable information from children. Since we collect no data whatsoever, we are not in possession of any data from any user, regardless of age.
+Ultra Vault has an age rating of **17+** and is not intended for use by anyone under this age. We do not knowingly collect any personally identifiable information from children. Since we collect no data whatsoever, we are not in possession of any data from any user, regardless of age.
 
 ---
 
